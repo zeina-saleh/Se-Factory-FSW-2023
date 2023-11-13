@@ -1,0 +1,99 @@
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    color: #363738;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    font-size: x-large;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#title {
+    text-align: center;
+}
+
+label {
+    margin-top: 2.5px;
+}
+
+#player-names {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#names-btn {
+    padding: 5px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: solid 3px #363738;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    font-size: 40px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+#box1, #box2, #box3 {
+    border-top: none;
+}
+
+#box1, #box4, #box7 {
+    border-left: none;
+}
+
+#box7, #box8, #box9 {
+    border-bottom: none;
+}
+
+#box3, #box6, #box9 {
+    border-right: none;
+}
+
+.hide {
+    display: none;
+}
